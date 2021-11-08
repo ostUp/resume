@@ -14,7 +14,6 @@ body {
     border-radius: 5px;
     display: flex;
     width: 1000px;
-    /* height: 1600px; */
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -47,7 +46,6 @@ body {
 .contacts, .skills {
     margin-bottom: 52px;
 }
-
 
 .contacts, .skills {
     padding-left: 40px;
@@ -175,7 +173,6 @@ body {
 .projects-link, .expriance-item-link {
     color: var(--prime-color);
 }
-
 
 .jobs-title, .education-title {
     color: #2a2a2a;
