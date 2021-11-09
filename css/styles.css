@@ -6,29 +6,32 @@ body {
     font-family: Montserrat;
     font-weight: 600;
     background-color: #fff;
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 .container {
-    height: 1275px;
+    max-height: 1275px;
     border-radius: 5px;
     display: flex;
     width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background-color: #fff;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
 }
 
+.container:hover {
+    box-shadow: none;
+}
+
 .left-side {
-    width: 370px;
+    max-width: 370px;
     background-color: var(--prime-color);
     color: #fff;
     border-radius: 5px 0px 0px 5px;
 }
 
 .right-side {
-    width: 830px;
+    max-width: 830px;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 28px;
